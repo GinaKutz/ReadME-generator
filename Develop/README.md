@@ -1,10 +1,8 @@
-// generateMarkdown.js
-const generateMarkdown = (data) => {
-  return `
-# ${data.title}
+
+# ReadMe
 
 ## Description
-${data.description}
+ReadMeGenerator
 
 ## Table of Contents
 - [Installation](#installation)
@@ -21,7 +19,7 @@ ${data.description}
 [Add usage information here]
 
 ## License
-This project is licensed under the ${data.license} License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contributing
 [Add contribution guidelines here]
@@ -30,9 +28,6 @@ This project is licensed under the ${data.license} License - see the [LICENSE](L
 [Add test instructions here]
 
 ## Questions
-For additional questions, contact ${data.email}.  
-GitHub: [${data.github}](https://github.com/${data.github})
-  `;
-};
-
-module.exports = generateMarkdown;
+For additional questions, contact gjkutz@gmail.com.  
+GitHub: [GinaKutz](https://github.com/GinaKutz)
+  
